@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="CodeBuilder.exe" version="1.0.0.1" publicKeyToken="8c9b90f07804914d" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="CodeBuilder.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="CodeBuilder" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="CodeBuilder.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC 清单选项
+          如果要更改 Windows 用户帐户控制级别，请用以下节点之一替换
+          requestedExecutionLevel 节点。
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+          如果要利用文件和注册表虚拟化提供
+          向后兼容性，请删除 requestedExecutionLevel 节点。
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="CodeBuilder.exe" size="172032">
+      <assemblyIdentity name="CodeBuilder" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>CCEz8c80ihJ165PA2q67oP46FbC7M3dIk1fwU/EHdxw=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="CodeBuilder.exe.config" size="7628">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>1WA9CHPI+UcGHjnX7T4KIvMJg1K1Bi1nMWYqV70gZUI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="CodeBuilder.ico" size="67646">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>IVogHoqB/+ZOwUknpjU9SdDLqQOqc5uzRDrMWZB6RWg=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=CINWELL-PC\Yoga2" issuerKeyHash="0e7ac1411e747e4c8e0a1560eee815daced41c36" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>mnMtxXpxw3K3Xj5Fkba/BfWZDL+YjUkGJMRBqAmb5X4=</DigestValue></Reference></SignedInfo><SignatureValue>otnZqdY47Q6Ff1ganHbZJIUvhGMX52o2qgjhZ9Fl5e4cGhyUI/lPHEDXvNUIQ/oB6WJGM40GtX9JcFXbWh+IqF3dcQppxMLx1xbDZWJUATCWpFFFw5xVYED7c6ZtUuv0sh8U20D34n2PdT2RI015CAQxwS8QcN9V6gbABwBA+S4=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>tv4mV5NgGva2KY5kFB1awgQ6qaflSBCE7gBUYGFQL8byKRWk9wBwB0n36Y0szPA1prh8E76zhmBfpUrDAwRB0QeYrrtPuA4c0qO14zfNbcm172c/aHNbqId7cLkpGDajFnavhpE+O5UMoq/dcKNejME1xIwiRP7gAOrluGMUutM=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="7ee59b09a841c42406498d98bf0c99f505bfb691453e5eb772c3717ac52d739a" Description="" Url=""><as:assemblyIdentity name="CodeBuilder.exe" version="1.0.0.1" publicKeyToken="8c9b90f07804914d" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=CINWELL-PC\Yoga2</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>U3z2Gk+xPyN9aq0NearuRF8GDzbXipEcTFBrEztCnEM=</DigestValue></Reference></SignedInfo><SignatureValue>ibFZVF1nsYRUf2zQUoRHoqz0s5eNEuW0fkszd6UGLF1fyfFR0b2yFN12/YLabWpF1/z/PBgs3q7b5b8ZWxJfXKBp0XEeasIv5hCMxiJReN6Q/eYd89TrLN6JRtpUYuuQcO1WJxz21F09dRCLkyMGh87SWb1jmih0ncxOGB6bMKk=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>tv4mV5NgGva2KY5kFB1awgQ6qaflSBCE7gBUYGFQL8byKRWk9wBwB0n36Y0szPA1prh8E76zhmBfpUrDAwRB0QeYrrtPuA4c0qO14zfNbcm172c/aHNbqId7cLkpGDajFnavhpE+O5UMoq/dcKNejME1xIwiRP7gAOrluGMUutM=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB2TCCAUKgAwIBAgIQZgSeFIJ534dA0dwJV8nc1DANBgkqhkiG9w0BAQsFADArMSkwJwYDVQQDHiAAQwBJAE4AVwBFAEwATAAtAFAAQwBcAFkAbwBnAGEAMjAeFw0xNDAzMjkxNjQ5NDZaFw0xNTAzMjkyMjQ5NDZaMCsxKTAnBgNVBAMeIABDAEkATgBXAEUATABMAC0AUABDAFwAWQBvAGcAYQAyMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC2/iZXk2Aa9rYpjmQUHVrCBDqpp+VIEITuAFRgYVAvxvIpFaT3AHAHSffpjSzM8DWmuHwTvrOGYF+lSsMDBEHRB5iuu0+4DhzSo7XjN81tybXvZz9oc1uoh3twuSkYNqMWdq+GkT47lQyir91wo16MwTXEjCJE/uAA6uW4YxS60wIDAQABMA0GCSqGSIb3DQEBCwUAA4GBAG8MeSEhGbCawMOpwOMVIFdJc0+bzpTw8h2H3FbNG1w68dqfV++gjLzmz2dJICo7btqoP3A1GfU1S1sL++KZeJO/7du27UqiQTIceA8V2k2dSocfw8mpmGDFX+2ZT4+t1S9TDFufWdzJGhj9FkzzwrrZF21NeKgBHTwTpsMg7JDy</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
